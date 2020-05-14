@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto</title>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css"
+        integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Oswald|PT+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="js/index.js">
+
+</head>
+
+<body>
+    <header class="site-header">
+        <div class="hero">
+            <div class="contenido-header">
+                <nav class="redes-sociales">
+                    <a href="#"><i class="fab fa-facebook-f"></i></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-pinterest-p"></i></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </nav>
+                <div class="informacion-evento">
+                    <p class="fecha"><i class="far fa-calendar-alt"></i>07 - 20 - Mayo</p>
+                    <p class="ciudad"><i class="fas fa-map-marker-alt"></i>Manizales, Caldas</p>
+                    <h1 class="Nombre-sitio">AqlWebCamp</h1>
+                    <p class="slogan">La mejor conferencia de <span>Diseño Web</span></p>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="barra">
+        <div class="contenedor">
+            <div class="logo">
+                <img src="img/logo.svg" alt="">
+            </div>
+            <div class="menu-movil">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <nav class="navegacion-principal">
+                <a href="#">Conferencia</a>
+                <a href="#">Calendario</a>
+                <a href="#">Invitados</a>
+                <a href="#">Reservaciones</a>
+            </nav>
+        </div>
+        <!--contenedor-->
+    </div>
+    <!--barra-->
+
+    <section class="seccion contenedor">
+        <h2>La Mejor Conferencia De Diseño Web En Español</h2>
+        <p>Veraz las mejores alternativas para crear tu página web, la mejor asesoría que se puede dar utilizando los
+            mejores
+            contenidos, también tendrás a tu disposición a los especialistas en el tema con nuestras conferencias</p>
+    </section>
+
+    <section class="programa">
+        <div class="contenedor-video">
+            <video autoplay loop poster="./img/bg-talleres.jpg">
+                <source src="video/video.mp4" type="video/mp4">
+                <source src="video/video.webm" type="video/webm">
+                <source src="video/video.ogv" type="video/ogv">
+            </video>
+        </div>
+        <!--contenedor-video-->
+        <div class="contenedor-programa">
+            <div class="contenedor">
+                <div class="programa-evento">
+                    <h2>Programa del evento</h2>
+                    <nav class="menu-programa">
+                        <a href="#talleres"><i class="fas fa-code"></i>Talleres</a>
+                        <a href="#conferencias"><i class="far fa-comment"></i>Conferencias</a>
+                        <a href="#seminarios"><i class="fas fa-university"></i>Seminarios</a>
+                    </nav>
+                    <div id="talleres" class="info-curso ocultar clearfix">
+                        <div class="detalle-evento">
+                            <h3>HTML5, CSS3, JavaScript</h3>
+                            <p><i class="far fa-clock"></i>17:00 hrs</p>
+                            <p><i class="far fa-calendar-alt"></i>06 Jun</p>
+                            <p><i class="fas fa-user-tie"></i>Alejandro Quintero Londoño</p>
+                        </div>
+                        <div class="detalle-evento">
+                            <h3>Responsive Web Design</h3>
+                            <p><i class="far fa-clock"></i>20:00 hrs</p>
+                            <p><i class="far fa-calendar-alt"></i>06 Jun</p>
+                            <p><i class="fas fa-user-tie"></i>Alejandro Quintero Londoño</p>
+                        </div>
+                        <a href="#" class="button rigth">Ver todos</a>
+                    </div>
+                    <!--#talleres-->
+                </div>
+                <!--programa-evento-->
+            </div>
+            <!--contenedor-->
+        </div>
+        <!--contenedor-programa-->
+    </section>
+    <!--programa-->
+
+    <section class="invitados contenedor seccion">
+        <h2>Nuestros invitados</h2>
+        <ul class="lista-invitados clearfix">
+            <li>
+                <div class="invitado">
+                    <img src="img/invitado1.jpg" alt="imagen invitado">
+                    <p>Rafael Bautista</p>
+                </div>
+            </li>
+            <li>
+                <div class="invitado">
+                    <img src="img/invitado2.jpg" alt="imagen invitado">
+                    <p>Shari Herrera</p>
+                </div>
+            </li>
+            <li>
+
+                <div class="invitado">
+                    <img src="img/invitado3.jpg" alt="imagen invitado">
+                    <p>Gregorio Sanchez</p>
+                </div>
+            </li>
+            <li>
+                <div class="invitado">
+                    <img src="img/invitado4.jpg" alt="imagen invitado">
+                    <p>Susana Rivera</p>
+                </div>
+            </li>
+            <li>
+                <div class="invitado">
+                    <img src="img/invitado5.jpg" alt="imagen invitado">
+                    <p>Harold Garcia</p>
+                </div>
+            </li>
+            <li>
+                <div class="invitado">
+                    <img src="img/invitado6.jpg" alt="imagen invitado">
+                    <p>Susan Sanchez</p>
+                </div>
+            </li>
+        </ul>
+    </section>
+    <section class="contador parallax">
+        <div class="contenedor">
+            <ul class="resumen-evento clearfix">
+                <li>
+                    <p class="numero">6</p>Invitados
+                </li>
+                <li>
+                    <p class="numero">15</p>Talleres
+                </li>
+                <li>
+                    <p class="numero">3</p>Días
+                </li>
+                <li>
+                    <p class="numero">9</p>Conferencias
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section class="precio seccion">
+        <h2>Precios</h2>
+        <div class="contenedor">
+            <ul class="lista-precios clearfix">
+                <li>
+                    <div class="tabla-precio">
+                        <h3>Pase por día</h3>
+                        <p class="numero">$30</p>
+                        <ul>
+                            <li><i class="fas fa-check-circle"></i>Bocadillos Gratis</li>
+                            <li><i class="fas fa-check-circle"></i>Todas Las Conferencias</li>
+                            <li><i class="fas fa-check-circle"></i>Todas los talleres</li>
+                        </ul>
+                        <a href="#" class="button hollow">Comprar</a>
+                    </div>
+                </li>
+                <li>
+                    <div class="tabla-precio">
+                        <h3>Todos los dias</h3>
+                        <p class="numero">$50</p>
+                        <ul>
+                            <li><i class="fas fa-check-circle"></i>Bocadillos Gratis</li>
+                            <li><i class="fas fa-check-circle"></i>Todas Las Conferencias</li>
+                            <li><i class="fas fa-check-circle"></i>Todas los talleres</li>
+                        </ul>
+                        <a href="#" class="button">Comprar</a>
+                    </div>
+                </li>
+                <li>
+                    <div class="tabla-precio">
+                        <h3>Pase por 3 día</h3>
+                        <p class="numero">$45</p>
+                        <ul>
+                            <li><i class="fas fa-check-circle"></i>Bocadillos Gratis</li>
+                            <li><i class="fas fa-check-circle"></i>Todas Las Conferencias</li>
+                            <li><i class="fas fa-check-circle"></i>Todas los talleres</li>
+                        </ul>
+                        <a href="#" class="button hollow">Comprar</a>
+                    </div>
+                </li>
+            </ul>
+            <!--lista-precios clearfix-->
+        </div>
+        <!--contenedor-->
+    </section>
+    <!--precio seccion-->
+
+    <div id="mapa" class="mapa"></div>
+
+    <section class="seccion">
+        <h2>Testimoniales</h2>
+        <div class="testimoniales contador clearfix">
+            <div class="testimonial">
+                <blockquote>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque explicabo id, eos labore voluptatum accusantium. Consequuntur adipisci dolore accusamus deserunt pariatur! Reiciendis atque maiores non fugiat itaque consequuntur laboriosam corporis.</p>
+                    <footer class="info-testimonial clearfix">
+                        <img src="img/testimonial.jpg" alt="imagen testimonial">
+                        <cite>Leandro Agudelo Pinto <span>Diseñador en @prisma</span></cite>
+                    </footer>
+                </blockquote>
+            </div>
+            <!--testimonial-->
+            <div class="testimonial">
+                <blockquote>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, provident quos. Doloribus porro tempore velit maxime neque ea, magnam cumque dolores totam vero ipsam expedita quaerat modi ullam quos officia.</p>
+                    <footer class="info-testimonial clearfix">
+                        <img src="img/testimonial.jpg" alt="imagen testimonial">
+                        <cite>Leandro Agudelo Pinto <span>Diseñador en @prisma</span></cite>
+                    </footer>
+                </blockquote>
+            </div>
+            <!--testimonial-->
+            <div class="testimonial">
+                <blockquote>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam magni voluptatibus nihil officia quod consequuntur qui pariatur cum. Nobis dignissimos provident at dolorum ratione numquam consequatur repellendus, perspiciatis in fugiat.</p>
+                    <footer class="info-testimonial clearfix">
+                        <img src="img/testimonial.jpg" alt="imagen testimonial">
+                        <cite>Leandro Agudelo Pinto <span>Diseñador en @prisma</span></cite>
+                    </footer>
+                </blockquote>
+            </div>
+            <!--testimonial-->
+        </div><!--tesstimoniales contenedor clearfix-->
+    </section>
+
+</body>
+
+</html>
