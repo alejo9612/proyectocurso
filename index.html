@@ -5,12 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Proyecto</title>
-    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css"
         integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans|Oswald|PT+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="js/index.js">
 
 </head>
 
@@ -28,14 +27,14 @@
                 <div class="informacion-evento">
                     <p class="fecha"><i class="far fa-calendar-alt"></i>07 - 20 - Mayo</p>
                     <p class="ciudad"><i class="fas fa-map-marker-alt"></i>Manizales, Caldas</p>
-                    <h1 class="Nombre-sitio">AqlWebCamp</h1>
+                    <h1 class="Nombre-sitio">GDLWebCamp</h1>
                     <p class="slogan">La mejor conferencia de <span>Diseño Web</span></p>
                 </div>
             </div>
         </div>
     </header>
     <div class="barra">
-        <div class="contenedor">
+        <div class="contenedor clearfix">
             <div class="logo">
                 <img src="img/logo.svg" alt="">
             </div>
@@ -44,11 +43,11 @@
                 <span></span>
                 <span></span>
             </div>
-            <nav class="navegacion-principal">
+            <nav class="navegacion-principal clearfix">
                 <a href="#">Conferencia</a>
                 <a href="#">Calendario</a>
                 <a href="#">Invitados</a>
-                <a href="#">Reservaciones</a>
+                <a href="registro.html">Reservaciones</a>
             </nav>
         </div>
         <!--contenedor-->
@@ -249,6 +248,62 @@
             <!--testimonial-->
         </div><!--tesstimoniales contenedor clearfix-->
     </section>
+
+    <div class="new parallax">
+        <div class="contenido contenedor">
+            <p>Registrate en newsletter:</p>
+            <h3>gdlwebcamp</h3>
+            <a href="#" class="button transparente">registro</a>
+        </div>
+    </div><!--new-->
+    <section class="seccion">
+        <h2>faltan</h2>
+        <div class="cuenta-regresiva contenedor">
+            <ul class="clearfix">
+                <li>
+                    <p class="numero">80</p> dias
+                </li>
+                <li>
+                    <p class="numero">15</p> horas
+                </li>
+                <li>
+                    <p class="numero">5</p> minutos
+                </li>
+                <li>
+                    <p class="numero">30</p> segundos
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <footer class="site-footer">
+        <div class="contenedor clearfix">
+            <div class="footer-informacion">
+                <h3>Sobre<span>gdlwebcamp</span></h3>
+                <p>Es una plataforma en laque te encontraras con los mejores profesionales que te llevarán hacer de tus páginas web las mejores, n esta oportunidad gdlwebcamp no solo te muesta como hacer si no que te da las herramientas necesarias para que seas el mejor.</p>
+            </div>
+            <div class="ultimos-tweets">
+                <h3>Últimos<span>Tweets</span></h3>
+                <ul>
+                    <li>Los mejores a la hora de enseñar como se deben de aplicar las técnicas correctas a la hora de programar y crear nuestras páginas web, GRACIAS POR SU GDLWEBCAMP.</li>
+                    <li>No solo aprendí a crear páginas web de una manera increible, también me preparé de la mejor manera para laborar en lo que realmente me apasiona gracIAs a uds.</li>
+                    <li>Son los mejores no solo aprendi a perfeccionar mis habilidaddes como desarrollador sino que tambíen puedo ayudar a mis clientes a encontrar lo que en realidad quieren de sus páginas.</li>
+                </ul>
+            </div>
+            <div class="menu">
+                <h3>Redes<span>Sociales</span></h3>
+                <nav class="redes-sociales">
+                    <a href="#"><i class="fab fa-facebook-f"></i></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-pinterest-p"></i></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </nav>
+            </div>
+        </div>
+        <p class="copyrigth">Todos los derechos reservados GDLWEBCAMP 2020&COPY;</p>
+    </footer>
+    <script src="js/index.js"></script>
 
 </body>
 
