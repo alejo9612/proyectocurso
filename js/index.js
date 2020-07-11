@@ -7,19 +7,19 @@
         
         //datos usuario
         let nombre = document.getElementById('nombre');
-        let apelliddo = document.getElementById('apellido');
-        let email = document.getElementById('email');
+         apelliddo = document.getElementById('apellido');
+         email = document.getElementById('email');
 
         //campos de los pases por día
         let paseDia = document.getElementById('pase_dia');
-        let paseDosDia = document.getElementById('pase_dos');
-        let paseCompleto = document.getElementById('pase_completo');
+         paseDosDia = document.getElementById('pase_dos');
+         paseCompleto = document.getElementById('pase_completo');
 
         //botones y divs
         let calcular = document.getElementById('calcular');
-        let errorDiv = document.getElementById('error');
-        let botonRegistro = document.getElementById('btnRegistro');
-        let resultado = document.getElementById('lista-productos');
+         errorDiv = document.getElementById('error');
+         botonRegistro = document.getElementById('btnRegistro');
+         resultado = document.getElementById('resultado');
 
         //funcion de calcular como primer boton
         calcular.addEventListener('click', calcularMontos);
@@ -32,7 +32,9 @@
                 regalo.focus();
             }
             else{
-                console.log("ya eegiste regalo");
+                console.log(paseDia.value);
+                console.log(paseDosDia.value);
+                console.log(paseCompleto.value);
             }
         }
 
