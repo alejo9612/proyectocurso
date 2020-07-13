@@ -367,12 +367,12 @@ ul{
 .invitado img{
     width: 100%;
     filter: gray;
-    -webkit-filter: grayscale(1);
-    -webkit-transition: all .3s ease-in-out;
+    filter: grayscale(1);
+    transition: all .3s ease-in-out;
 }
 .invitado img:hover{
-    -webkit-filter: grayscale(0);
-    -webkit-transform: scale(1.1);
+    filter: grayscale(0);
+    transform: scale(1.1);
 }
 .invitado p{
     position: absolute;
@@ -387,7 +387,7 @@ ul{
     font-size: 2em;
     color: #fe4918;
     text-transform: uppercase;
-    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
 
 }
 .invitado:hover p{
@@ -491,7 +491,7 @@ ul{
 .tabla-precio p{
     color: black;
     font-size: 100px;
-    margin-top: 20px 0;
+    margin: 20px 0;
 }
 /**mapa**/
 .mapa{
@@ -730,4 +730,19 @@ h4{
 .resumen input{
     display: block;
     margin: 0 auto;
+}
+#resultado{
+    background-color: #e1e1e1;
+    padding: 20px;
+    display: none;
+}
+#suma-total{
+    text-align: center;
+    font-size: 2em;
+    color: #fe4918;
+}
+#error{
+    clear: both;
+    text-align: center;
+    padding: 20px;
 }
