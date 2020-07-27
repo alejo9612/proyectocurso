@@ -28,7 +28,7 @@
          etiqueta = document.getElementById ('etiquetas');
 
         //funcion de calcular como primer boton
-        calcular.addEventListener('click', calcularMontos);
+        calcular.addEventListener('click', calcularTodo);
 
         paseDia.addEventListener('blur', mostrarDias);
         paseDosDia.addEventListener('blur', mostrarDias);
